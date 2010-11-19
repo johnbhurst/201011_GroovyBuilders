@@ -1,0 +1,24 @@
+
+Overview:
+  - 2 kinds of builders:
+  - BuilderSupport
+  - FactoryBuilderSupport
+  - Class diagram
+
+BuilderSupport for arbitrary node handling
+  Example: MarkupBuilder
+  Example: SVG output
+
+FactoryBuilderSupport for fixed node handling
+  Example: SwingBuilder
+  Example: Checker board
+  Example: JDBCQuery Tool
+
+Case Study in developing a Builder: PDFBuilder
+  Example: Checker board as a Table
+  Example: Checker board as Graphics2D
+  Example: Business card?
+  Example: Invoice?
+
+
+
