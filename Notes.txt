@@ -14,6 +14,9 @@ FactoryBuilderSupport for fixed node handling
   Example: Checker board
   Example: JDBCQuery Tool
 
+BuilderSupportTest + SpoofBuilder
+FactoryBuilderSupportTest + SpoofFactoryBuilder
+
 Case Study in developing a Builder: PDFBuilder
   Example: Checker board as a Table
   Example: Checker board as Graphics2D
