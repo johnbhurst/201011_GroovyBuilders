@@ -6,22 +6,21 @@ Overview:
   - Class diagram
 
 BuilderSupport for arbitrary node handling
-  Example: MarkupBuilder
-  Example: SVG output
+  Example: MarkupBuilder: SVG Checker board
 
 FactoryBuilderSupport for fixed node handling
-  Example: SwingBuilder
-  Example: Checker board
-  Example: JDBCQuery Tool
+  Example: SwingBuilder: Graphics2D Checker board
+  Example: SwingBuilder: JDBCQuery Tool
 
+How Does It Work?
 BuilderSupportTest + SpoofBuilder
 FactoryBuilderSupportTest + SpoofFactoryBuilder
 
+How Do We Make a Builder?
 Case Study in developing a Builder: PDFBuilder
   Example: Checker board as a Table
   Example: Checker board as Graphics2D
   Example: Business card?
   Example: Invoice?
-
 
 
