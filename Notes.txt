@@ -10,7 +10,7 @@ BuilderSupport for arbitrary node handling
 
 FactoryBuilderSupport for fixed node handling
   Example: SwingBuilder: Hello Swing
-  Example: SwingBuilder: Graphics2D Checker board
+  Example: SwingBuilder: Graphics2D Checker board (no, this is pointless)
   Example: SwingBuilder: JDBCQuery Tool
 
 How Does It Work?
