@@ -1,0 +1,23 @@
+Overview:
+  - 2 kinds of builders:
+  - BuilderSupport
+  - FactoryBuilderSupport
+  - Class diagram
+
+BuilderSupport for arbitrary node handling
+  Example: MarkupBuilder: SVG Checker board
+
+FactoryBuilderSupport for fixed node handling
+  Example: SwingBuilder: Hello Swing
+  Example: SwingBuilder: JDBCQuery Tool
+
+How Does It Work?
+BuilderSupportTest + SpoofBuilder
+//FactoryBuilderSupportTest + SpoofFactoryBuilder
+
+How Do We Make a Builder?
+Case Study in developing a Builder: PDFBuilder
+  Example: Pascal's Triangle: Compare to Java
+  Example: Invoice
+
+
