@@ -1,0 +1,22 @@
+<invoice>
+  <date>2010-11-24</date>
+  <to>Oracle Corp</to>
+  <items>
+    <item>
+      <description>Struggling on in the face of draining skepticism from client, drinks</description>
+      <charge>327.50</charge>
+    </item>
+    <item>
+      <description>Detecting and triangulating the vectors of interconnectedness of all things</description>
+      <charge>150.00</charge>
+    </item>
+    <item>
+      <description>Tracing same to beach on Bahamas, fare and accommodation</description>
+      <charge>1500.00</charge>
+    </item>
+    <item>
+      <description>Saving human race from total extinction</description>
+      <charge>No charge</charge>
+    </item>
+  </items>
+</invoice>
