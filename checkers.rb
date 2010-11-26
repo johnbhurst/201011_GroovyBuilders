@@ -14,20 +14,21 @@ class Builder::XmlMarkup
   end
 end
 
-b = Builder::XmlMarkup.new(target: STDOUT, indent: 2)
-b.svg(xmlns: "http://www.w3.org/2000/svg", width: 84, height: 84) do
-  b.g do
-    0.upto(7) do |i|
-      0.upto(7) do |j|
-        if i % 2 == j % 2 then
-          b.square(i, j, whitesquare)
-        else
-          b.square(i, j, blacksquare)
-          if i <= 2 then
-            b.piece(i, j, whitepiece)
-          end
-          if i >= 5 then
-            b.piece(i, j, blackpiece)
+Builder::XmlMarkup.new(target: STDOUT, indent: 2).instance_eval do
+  svg(xmlns: "http://www.w3.org/2000/svg", width: 84, height: 84) do
+    g do
+      0.upto(7) do |i|
+        0.upto(7) do |j|
+          if i % 2 == j % 2 then
+            square(i, j, whitesquare)
+          else
+            square(i, j, blacksquare)
+            if i <= 2 then
+              piece(i, j, whitepiece)
+            end
+            if i >= 5 then
+              piece(i, j, blackpiece)
+            end
           end
         end
       end
